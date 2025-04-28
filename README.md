@@ -1,5 +1,5 @@
 
-# Stock Manager
+# Grocery Store Manager
 
 Stock Manager is a Spring Boot-based application designed to manage product inventory. It provides RESTful APIs for creating, reading, updating, and deleting products, as well as toggling their active status. The application uses MySQL as the database and integrates with Spring Security, Spring Data JPA, and MapStruct for efficient development.
 
@@ -15,6 +15,7 @@ Stock Manager is a Spring Boot-based application designed to manage product inve
 
 ## Project Structure
 
+```markdown
 src/
 ├── main/
 │   ├── java/com/tva/
