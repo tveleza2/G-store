@@ -4,6 +4,8 @@ import java.util.UUID;
 
 import jakarta.persistence.Column;
 import jakarta.persistence.Entity;
+import jakarta.persistence.GeneratedValue;
+import jakarta.persistence.GenerationType;
 import jakarta.persistence.Id;
 import lombok.AllArgsConstructor;
 import lombok.Getter;
@@ -17,6 +19,7 @@ import lombok.Setter;
 @Entity(name = "products")
 public class Product {
     @Id
+    @GeneratedValue(strategy = GenerationType.UUID)
     @Column(name = "product_id")
     private UUID productId;
 
@@ -30,5 +33,5 @@ public class Product {
     private int quantity;
 
     @Column(name = "is_active")
-    private boolean isActive;
+    private boolean isActive = true;
 }

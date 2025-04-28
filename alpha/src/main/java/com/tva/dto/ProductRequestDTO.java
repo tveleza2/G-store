@@ -2,9 +2,16 @@ package com.tva.dto;
 
 import java.util.UUID;
 
+import lombok.Getter;
+import lombok.Setter;
+import lombok.ToString;
+
+@Getter
+@Setter
+@ToString
 public class ProductRequestDTO {
-    public UUID id;
-    public String name;
-    public String description;
-    public int quantity;
+    private UUID id;
+    private String name;
+    private String description;
+    private int quantity;
 }

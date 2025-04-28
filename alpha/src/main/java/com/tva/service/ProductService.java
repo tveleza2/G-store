@@ -55,12 +55,12 @@ public class ProductService {
     @Transactional
     public void updateProduct(ProductRequestDTO productDTO) throws InvalidProductException{
         validateProduct(productDTO);
-        Optional<Product> possibleProduct = productRepository.findById(productDTO.id);
+        Optional<Product> possibleProduct = productRepository.findById(productDTO.getId());
         if (possibleProduct.isPresent()) {
             Product newProduct = productMapper.requestDTOToProduct(productDTO);
             productRepository.save(newProduct);
         }
-        throw new InvalidProductException("There are no products registered with the id: "+productDTO.id);
+        throw new InvalidProductException("There are no products registered with the id: "+productDTO.getId());
     }
 
     @Transactional
@@ -83,11 +83,11 @@ public class ProductService {
 
     public void validateProduct(ProductRequestDTO productDTO) throws InvalidProductException{
 
-        if(productDTO.name == null || productDTO.name.isEmpty()){
+        if(productDTO.getName() == null || productDTO.getName().isEmpty()){
             throw new InvalidProductException("The name can not be empty");
         }
-        if(productDTO.quantity<0){
-            throw new InvalidProductException("There can not be less than 0 "+productDTO.name);
+        if(productDTO.getQuantity()<0){
+            throw new InvalidProductException("There can not be less than 0 "+productDTO.getName());
         }
 
     }
