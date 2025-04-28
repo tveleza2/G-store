@@ -19,7 +19,7 @@ public class WebSecurity {
     public SecurityFilterChain filterChain(HttpSecurity http) throws Exception {
         http.
             authorizeHttpRequests((authorize)-> authorize.
-                requestMatchers("/img/").permitAll())
+                requestMatchers("/**").permitAll())
                 .csrf(csrf->csrf.disable());
         return http.build();
     }
