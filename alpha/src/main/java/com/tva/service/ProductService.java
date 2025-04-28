@@ -20,8 +20,8 @@ import lombok.RequiredArgsConstructor;
 @RequiredArgsConstructor
 public class ProductService {
 
-    private final ProductRepository productRepository;
     private final ProductMapper productMapper;
+    private final ProductRepository productRepository;
 
     @Transactional
     public void createProduct(ProductRequestDTO productDTO) throws InvalidProductException{

@@ -1,0 +1,12 @@
+/Users/pabloacosta/Desktop/G-store/alpha/src/main/java/com/tva/Application.java
+/Users/pabloacosta/Desktop/G-store/alpha/src/main/java/com/tva/WebSecurity.java
+/Users/pabloacosta/Desktop/G-store/alpha/src/main/java/com/tva/dto/HelloDTO.java
+/Users/pabloacosta/Desktop/G-store/alpha/src/main/java/com/tva/dto/ProductRequestDTO.java
+/Users/pabloacosta/Desktop/G-store/alpha/src/main/java/com/tva/dto/ProductResponseDTO.java
+/Users/pabloacosta/Desktop/G-store/alpha/src/main/java/com/tva/entitiy/Product.java
+/Users/pabloacosta/Desktop/G-store/alpha/src/main/java/com/tva/exceptions/InvalidProductException.java
+/Users/pabloacosta/Desktop/G-store/alpha/src/main/java/com/tva/mapper/ProductMapper.java
+/Users/pabloacosta/Desktop/G-store/alpha/src/main/java/com/tva/repositories/ProductRepository.java
+/Users/pabloacosta/Desktop/G-store/alpha/src/main/java/com/tva/service/ProductService.java
+/Users/pabloacosta/Desktop/G-store/alpha/src/main/java/com/tva/web/HelloController.java
+/Users/pabloacosta/Desktop/G-store/alpha/src/main/java/com/tva/web/ProductController.java

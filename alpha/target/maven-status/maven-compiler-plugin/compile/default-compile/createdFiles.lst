@@ -1,0 +1,12 @@
+com/tva/web/HelloController.class
+com/tva/WebSecurity.class
+com/tva/web/ProductController.class
+com/tva/dto/HelloDTO.class
+com/tva/dto/ProductRequestDTO.class
+com/tva/Application.class
+com/tva/service/ProductService.class
+com/tva/mapper/ProductMapper.class
+com/tva/entitiy/Product.class
+com/tva/repositories/ProductRepository.class
+com/tva/dto/ProductResponseDTO.class
+com/tva/exceptions/InvalidProductException.class
