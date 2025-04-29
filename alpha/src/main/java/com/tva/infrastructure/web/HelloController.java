@@ -1,4 +1,4 @@
-package com.tva.web;
+package com.tva.infrastructure.web;
 
 import com.tva.dto.HelloDTO;
 import org.springframework.web.bind.annotation.GetMapping;

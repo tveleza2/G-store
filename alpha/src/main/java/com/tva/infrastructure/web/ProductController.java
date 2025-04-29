@@ -1,4 +1,4 @@
-package com.tva.web;
+package com.tva.infrastructure.web;
 
 import java.util.List;
 import java.util.UUID;
@@ -16,7 +16,7 @@ import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
-import com.tva.service.ProductService;
+import com.tva.application.service.ProductService;
 import com.tva.dto.ProductRequestDTO;
 import com.tva.dto.ProductResponseDTO;
 

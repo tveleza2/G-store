@@ -1,4 +1,4 @@
-package com.tva.entitiy;
+package com.tva.domain.entity;
 
 import java.util.UUID;
 

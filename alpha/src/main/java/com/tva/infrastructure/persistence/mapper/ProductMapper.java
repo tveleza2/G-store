@@ -1,11 +1,11 @@
-package com.tva.mapper;
+package com.tva.infrastructure.persistence.mapper;
 
 import org.mapstruct.Mapper;
 import org.mapstruct.Mapping;
 
+import com.tva.domain.entity.Product;
 import com.tva.dto.ProductRequestDTO;
 import com.tva.dto.ProductResponseDTO;
-import com.tva.entitiy.Product;
 
 @Mapper(componentModel = "spring")
 public interface ProductMapper {
@@ -17,6 +17,7 @@ public interface ProductMapper {
     @Mapping(target = "productId", ignore = true)
     @Mapping(target = "productName", source = "name")
     @Mapping(target = "productDescription", source = "description")
+    @Mapping(target="active",ignore = true)
     Product requestDTOToProduct(ProductRequestDTO productRequestDTO);
     
 }

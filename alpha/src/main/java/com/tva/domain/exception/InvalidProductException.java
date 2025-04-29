@@ -1,4 +1,4 @@
-package com.tva.exceptions;
+package com.tva.domain.exception;
 
 public class InvalidProductException extends Exception{
     public InvalidProductException(String msg){

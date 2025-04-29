@@ -14,5 +14,6 @@
             "database": "g_store",
             "username": "root"
         }
-    ]
+    ],
+    "java.compile.nullAnalysis.mode": "disabled"
 }

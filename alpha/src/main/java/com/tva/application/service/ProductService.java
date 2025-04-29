@@ -1,10 +1,10 @@
-package com.tva.service;
+package com.tva.application.service;
+import com.tva.domain.entity.Product;
+import com.tva.domain.exception.InvalidProductException;
 import com.tva.dto.ProductRequestDTO;
 import com.tva.dto.ProductResponseDTO;
-import com.tva.entitiy.Product;
-import com.tva.exceptions.InvalidProductException;
-import com.tva.repositories.ProductRepository;
-import com.tva.mapper.ProductMapper;
+import com.tva.infrastructure.persistence.mapper.ProductMapper;
+import com.tva.infrastructure.persistence.repositories.ProductRepository;
 
 import java.util.List;
 import java.util.Optional;
