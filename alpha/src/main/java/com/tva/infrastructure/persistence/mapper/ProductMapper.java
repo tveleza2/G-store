@@ -4,8 +4,8 @@ import org.mapstruct.Mapper;
 import org.mapstruct.Mapping;
 
 import com.tva.domain.entity.Product;
-import com.tva.dto.ProductRequestDTO;
-import com.tva.dto.ProductResponseDTO;
+import com.tva.infrastructure.persistence.dto.ProductRequestDTO;
+import com.tva.infrastructure.persistence.dto.ProductResponseDTO;
 
 @Mapper(componentModel = "spring")
 public interface ProductMapper {

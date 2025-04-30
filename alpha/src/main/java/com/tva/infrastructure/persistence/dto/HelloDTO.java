@@ -1,4 +1,4 @@
-package com.tva.dto;
+package com.tva.infrastructure.persistence.dto;
 
 public class HelloDTO {
 

@@ -1,8 +1,8 @@
 package com.tva.mapper;
 
 import com.tva.domain.entity.Product;
-import com.tva.dto.ProductRequestDTO;
-import com.tva.dto.ProductResponseDTO;
+import com.tva.infrastructure.persistence.dto.ProductRequestDTO;
+import com.tva.infrastructure.persistence.dto.ProductResponseDTO;
 import com.tva.infrastructure.persistence.mapper.ProductMapper;
 
 import javax.annotation.processing.Generated;

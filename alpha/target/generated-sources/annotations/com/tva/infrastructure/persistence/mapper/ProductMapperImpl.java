@@ -1,14 +1,14 @@
 package com.tva.infrastructure.persistence.mapper;
 
 import com.tva.domain.entity.Product;
-import com.tva.dto.ProductRequestDTO;
-import com.tva.dto.ProductResponseDTO;
+import com.tva.infrastructure.persistence.dto.ProductRequestDTO;
+import com.tva.infrastructure.persistence.dto.ProductResponseDTO;
 import javax.annotation.processing.Generated;
 import org.springframework.stereotype.Component;
 
 @Generated(
     value = "org.mapstruct.ap.MappingProcessor",
-    date = "2025-04-29T18:25:35-0500",
+    date = "2025-04-29T19:04:29-0500",
     comments = "version: 1.5.5.Final, compiler: Eclipse JDT (IDE) 3.42.0.z20250331-1358, environment: Java 21.0.6 (Eclipse Adoptium)"
 )
 @Component

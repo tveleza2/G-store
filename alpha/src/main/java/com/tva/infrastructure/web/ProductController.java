@@ -17,8 +17,8 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 import com.tva.application.service.ProductService;
-import com.tva.dto.ProductRequestDTO;
-import com.tva.dto.ProductResponseDTO;
+import com.tva.infrastructure.persistence.dto.ProductRequestDTO;
+import com.tva.infrastructure.persistence.dto.ProductResponseDTO;
 
 import org.springframework.web.bind.annotation.RequestBody;
 import lombok.RequiredArgsConstructor;
